@@ -1,0 +1,42 @@
+
+
+.body{
+    background-color: rgb(42, 40, 40);
+    color: white;
+}
+.signin{
+    width: 100%;
+    text-align: center;
+}
+
+.signin     h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signin input{
+    display: block;
+        position: relative;
+            left: 20%;
+            background-color: rgb(42, 40, 40);
+            border: 1px solid white;
+            color: white;
+            margin: 30px;
+    padding: 20px 60px;
+    border-radius: 28px;
+    text-align: center;
+    width: 50%;
+}
+.forms{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+
+}
+.signin input:hover{
+    border: 1px solid blue;
+}
+::-webkit-input-placeholder{
+    color: white;
+}

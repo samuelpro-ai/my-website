@@ -1,0 +1,160 @@
+
+@media screen and(min-width:400px) {
+    .link {
+        display: none;
+    }
+}
+
+body{
+    background-color: rgb(56, 52, 52);
+    color: white;
+}
+.head{
+    background-color: rgb(76, 72, 72);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px  40px rgb(154, 152, 152);
+    width: 100%;
+    padding-bottom: 70px;
+}
+.links{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 18%;
+}
+.links li{
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 4.5px solid rgb(76, 72, 72);
+
+    margin-right: 100px;
+    color: rgb(76, 72, 72);
+}
+.links li a{
+    color: white;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.links li:hover{
+    border-bottom: 4.5px solid palevioletred;
+    transition: 3s;
+}
+.links li a:hover{
+    color: rgb(207, 139, 162);
+    transition: 2s;
+}
+.container{
+    display: flex;
+}
+.text{
+    color: white;
+    position: relative;
+    top: 250px;
+}
+.img{
+    position: relative;
+    left: 100%;
+    top: -100px;
+
+
+}
+.text h1{
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+.text p{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.text button{
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    font-size: 25px;
+    border-top-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+    cursor: pointer;
+
+}
+.text button:hover{
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 33px;
+    border-top-left-radius: 0px;
+    transition: 2s;
+}
+.text button:active{
+    background-color: white;
+    color: black;
+    transition: 0s;
+}
+.second-box{
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    background-color: rgba(255, 255, 255, 0.179);
+height: 50%;
+width: 20%;;
+}
+.second-box div h1 {
+text-align: center;
+color: white;
+text-transform: uppercase;
+font-size: 25px;
+font-family:cursive;
+}
+.second-box .header{
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+.second-box .list{
+    padding: 10px 20px;
+    border-bottom: 2px solid white;
+    text-align: center;
+    margin-right:16px;
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.second-box .list span{
+    cursor: pointer;
+}
+.second-box .list:hover{
+    cursor: pointer;
+    background-color: rgba(154, 152, 152, 0.619);
+}
+
+.float-footer{
+    border-top: 2px solid white;
+    text-align: center;
+}
+.float-footer p{
+    font-size: 20px ;
+    font-family: cursive;
+}
+.text  button a{
+    text-decoration: none;
+    color: white;
+}
+.text button a:active{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
